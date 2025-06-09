@@ -1,9 +1,3 @@
-# Initialize Git (in your project folder)
-git init
-git remote add origin https://github.com/AaronBogle/job-search-agent.git
-git add .
-git commit -m "Initial commit"
-git push -u origin master  # or main, depending on your setup
 import streamlit as st
 from sentence_transformers import SentenceTransformer, util
 
